@@ -7,8 +7,10 @@ function App() {
   return (
     <div className="App">
       <div className='container-fluid'>
-        <div className="row header">
-          
+        <div className="row header justify-content-center">
+          <div className="col-3 py-3 mb-3">
+            <img src="https://via.placeholder.com/100x50" className="w-img mx-auto" />
+          </div>
         </div>
         <div className="row main">
           <div className='row row-btn'>
@@ -25,9 +27,9 @@ function App() {
               <button type='button' className='btn btn-primary btn-lg'>click</button>
             </div> */}
             <Btns name='letter' isFirst={true} />
-            <Btns name='album'/>
-            <Btns name='dboard'/>
-            <Btns name='sentence'/>
+            <Btns name='album' isSecond={true} />
+            <Btns name='dboard' isThird={true} />
+            <Btns name='sentence' isFourth={true} />
           </div>
         </div>
       </div>
