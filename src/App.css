@@ -2,6 +2,7 @@
   --bg-color: #d4ebf2;
 }
 
+
 .w-img {
   width: 100%;
   height: auto;
@@ -16,17 +17,25 @@
   height: 0;
 }
 
-.header {
+.sec-header {
   height: auto;
   background-color: var(--bg-color);
   /* border-bottom: 1px solid black; */
 }
 
-.main {
-  height: 1000px;
+.sec-btn {
+  height: 100px;
   background-color: var(--bg-color);
 }
 
-.row-btn button {
+.sec-btn button {
   width: 100%;
+}
+
+.sec-album {
+  background-color: var(--bg-color);
+}
+
+.card-img {
+  height: 200px;
 }
